@@ -1,21 +1,23 @@
 {
   "name": "babel-plugin-stylus",
   "version": "1.0.0",
-  "description": "",
+  "description": "Replace import declarations of **Stylus** files to its parsed **CSS**:",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Eduard Castellano",
+  "keywords": [
+    "babel-plugin"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/educastellano/babel-plugin-stylus.git"
   },
   "license": "ISC",
-  "devDependencies": {
-    "stylus": "^0.52.4"
-  },
   "dependencies": {
-    "minimist": "^1.2.0"
+    "minimist": "^1.2.0",
+    "string.prototype.endswith": "^0.2.0",
+    "stylus": "^0.52.4"
   }
 }
